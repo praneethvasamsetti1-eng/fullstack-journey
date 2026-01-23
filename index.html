@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Prac </title>
+    </head>
+    <body>
+        <h2>CatphotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!-- TODO: Add link to photos-->
+            <p>Click here to view more <a href="https://catphotos.com" target="_blank">cat photos</a></p>
+            
+            <img src="https://fcc.im/fcc-relaxing-cat" alt="A cat.">
+            <h3> Cat Lists</h3>
+            <div class="lists">
+                <p>Things Cats love:</p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <img src="lasagna.jpg">
+                <p>Thins cat hate</p>
+                <ul>
+                    <li>other cats</li>
+                    <li>thunder</li>
+                </ul>
+            </div>
+            <img src="cats.jpg">
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> indoor</label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> outdoor</label><br>
+
+                <label for="Lazy"><input id="Lazy" type="checkbox" name="personaluty"> Lazy</label><br>
+                <label for="Energetic"><input id="Energetic" type="checkbox" name="personaluty"> Energetic</label><br>
+
+                <input type="text" placeholder="cat URL" required> <br>
+                <button type="submit">submit</button>
+
+            </form>
+        </main>
+        <footer>
+            <p><small><small>
+                ABCD</small></small>
+            </p>
+
+        </footer>
+    </body>
+</html>
