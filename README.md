@@ -7,3 +7,4 @@ Tech used:
 - CSS (basic)
 
 Goal: Become a full-stack developer in 3 months.
+Day 2: Centered layout and Flexbox styling
