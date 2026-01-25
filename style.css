@@ -68,3 +68,17 @@ input:focus {
   outline: none;
   border-color: #333;
 }
+
+p {
+  line-height: 1.5;
+}
+
+label {
+  cursor: pointer;
+}
+
+button:active,
+input[type="submit"]:active {
+  transform: scale(0.98);
+}
+
