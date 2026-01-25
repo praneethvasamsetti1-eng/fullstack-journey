@@ -30,3 +30,41 @@ img {
 h1, h2, h3 {
   margin-top: 20px;
 }
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+input[type="text"]{
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button,
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+input:focus {
+  outline: none;
+  border-color: #333;
+}
