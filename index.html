@@ -47,5 +47,21 @@
             </p>
 
         </footer>
+        <script>
+  const input = document.getElementById("catUrlInput");
+  const button = document.getElementById("submitBtn");
+  const message = document.getElementById("message");
+
+  button.addEventListener("click", function () {
+    const value = input.value;
+
+    if (value === "") {
+      message.textContent = "Please enter a cat image URL";
+    } else {
+      message.textContent = "You entered: " + value;
+    }
+  });
+</script>
+
     </body>
 </html>
