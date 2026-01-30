@@ -59,7 +59,8 @@
   const message = document.getElementById("message");
   const image = document.getElementById("catImage");
 
-  button.addEventListener("click", function () {
+  button.addEventListener("click", handleImageUpdate); 
+    function handleImageUpdate() {
     const url = input.value.trim();
 
     // 1. Empty check
@@ -77,12 +78,16 @@
     // 3. Update image
     image.src = url;
     message.textContent = "Image updated!";
-  });
+  };
 
   // 4. Handle broken images
   image.onerror = function () {
     message.textContent = "Image could not be loaded. Try another URL.";
   };
+            input.addEventListener("input", function () {
+  message.textContent = "";
+});
+
 </script>
 
 
