@@ -5,23 +5,26 @@ const message = document.getElementById("message");
 
 let lastUrl = "";
 
-button.addEventListener("clcik", handleImageUpdate);
+button.addEventListener("click", handleImageUpdate);
 
-funtion handleImageUpdate () {
+function handleImageUpdate() {
   const url = input.value.trim();
 
-  if(url === "") {
+  if (url === "") {
     message.textContent = "Please enter an image URL";
     return;
   }
-  if(!url.startswith("http")) {
+
+  if (!url.startsWith("http")) {
     message.textContent = "Please enter a valid URL";
     return;
   }
+
   if (url === lastUrl) {
     message.textContent = "Same image already loaded";
     return;
   }
+
   button.disabled = true;
   message.textContent = "Loading...";
 
@@ -29,14 +32,16 @@ funtion handleImageUpdate () {
   image.src = url;
 }
 
-image.onload = funtion () {
+image.onload = function () {
   button.disabled = false;
   message.textContent = "Image updated!";
 };
-image.onerror = funtion () {
-  button.diabled = false;
+
+image.onerror = function () {
+  button.disabled = false;
   message.textContent = "Image could not be loaded. Try another URL.";
 };
-input.addEventListener("input", funtion() {
-  message.textContent="";
+
+input.addEventListener("input", function () {
+  message.textContent = "";
 });
