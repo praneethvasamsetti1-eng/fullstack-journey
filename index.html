@@ -53,43 +53,7 @@
             </p>
 
         </footer>
-        <script>
-  const input = document.getElementById("catUrlInput");
-  const button = document.getElementById("submitBtn");
-  const message = document.getElementById("message");
-  const image = document.getElementById("catImage");
-
-  button.addEventListener("click", handleImageUpdate); 
-    function handleImageUpdate() {
-    const url = input.value.trim();
-
-    // 1. Empty check
-    if (url === "") {
-      message.textContent = "Please enter an image URL";
-      return;
-    }
-
-    // 2. Basic URL check
-    if (!url.startsWith("http")) {
-      message.textContent = "Please enter a valid URL";
-      return;
-    }
-
-    // 3. Update image
-    image.src = url;
-    message.textContent = "Image updated!";
-  };
-
-  // 4. Handle broken images
-  image.onerror = function () {
-    message.textContent = "Image could not be loaded. Try another URL.";
-  };
-            input.addEventListener("input", function () {
-  message.textContent = "";
-});
-
-</script>
-
+        <script src="script.js"></script>
 
     </body>
 </html>
