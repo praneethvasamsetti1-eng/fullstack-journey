@@ -8,5 +8,6 @@ Day 5: Constrained dynamic image sizing
 Day 6: Updated UX
 Day 7: Worked on button function
 Day 8: Leared arrays and objects.Worked on tutorials.
+Day 9 & 10: Worked on a mini project
 
 
