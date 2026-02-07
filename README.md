@@ -11,5 +11,7 @@ Day 8: Leared arrays and objects.Worked on tutorials.
 Day 9 & 10: Worked on a mini project
 Day 11: Practised
 Day 12: Practised
+Day 13: Created ToDo App
+
 
 
