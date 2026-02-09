@@ -12,6 +12,7 @@ Day 9 & 10: Worked on a mini project
 Day 11: Practised
 Day 12: Practised
 Day 13: Created ToDo App
+Day 14: Worked on ToDo app and practised JS
 
 
 
