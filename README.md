@@ -14,5 +14,7 @@ Day 12: Practised
 Day 13: Created ToDo App
 Day 14: Worked on ToDo app and practised JS
 Day 15: Updated ToDo App
+Day 16: Updated ToDo & Practised
+
 
 
