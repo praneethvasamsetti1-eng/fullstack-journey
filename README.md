@@ -16,6 +16,7 @@ Day 14: Worked on ToDo app and practised JS
 Day 15: Updated ToDo App
 Day 16: Updated ToDo & Practised
 Day 17: Learned Async and worked on it
+Day 18: Added all async functions in catPhotoApp
 
 
 
