@@ -18,6 +18,9 @@ Day 16: Updated ToDo & Practised
 Day 17: Learned Async and worked on it
 Day 18: Added all async functions in catPhotoApp
 Day 19: Completed JS
+Day 20: Learned Node
+Day 21: Practised node
+
 
 
 
