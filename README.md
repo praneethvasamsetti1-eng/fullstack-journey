@@ -20,6 +20,7 @@ Day 18: Added all async functions in catPhotoApp
 Day 19: Completed JS
 Day 20: Learned Node
 Day 21: Practised node
+Day 22: Learned Express
 
 
 
