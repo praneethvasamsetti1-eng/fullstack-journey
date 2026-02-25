@@ -24,6 +24,7 @@ Day 22: Learned Express
 Day 23: Practised Express
 Day 24: Worked on Express
 Day 25: Worked on API
+Day 26: Used Async
 
 
 
