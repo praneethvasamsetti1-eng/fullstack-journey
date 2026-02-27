@@ -26,6 +26,7 @@ Day 24: Worked on Express
 Day 25: Worked on API
 Day 26: Used Async
 Day 27: Learned React
+Day 28: Full stack integration
 
 
 
