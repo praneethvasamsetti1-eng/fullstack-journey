@@ -28,7 +28,7 @@ Day 26: Used Async
 Day 27: Learned React
 Day 28: Full stack integration
 Day 29: More React
-
+Day 30: Practice
 
 
 
